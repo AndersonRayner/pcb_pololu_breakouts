@@ -64,85 +64,22 @@ Wire Wire Line
 	5000 3500 5000 3300
 Wire Wire Line
 	5000 3300 5450 3300
-$Comp
-L Connector:Conn_01x03_Male J5
-U 1 1 616D1523
-P 7500 3500
-F 0 "J5" H 7600 3250 50  0000 R CNN
-F 1 "Conn_01x03_Male" V 7600 4300 50  0000 R CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical" H 7500 3500 50  0001 C CNN
-F 3 "~" H 7500 3500 50  0001 C CNN
-	1    7500 3500
-	-1   0    0    1   
-$EndComp
-$Comp
-L Connector:Conn_01x03_Male J4
-U 1 1 616D27E2
-P 7200 3500
-F 0 "J4" H 7300 3250 50  0000 R CNN
-F 1 "Conn_01x03_Male" V 7250 4350 50  0000 R CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical" H 7200 3500 50  0001 C CNN
-F 3 "~" H 7200 3500 50  0001 C CNN
-	1    7200 3500
-	-1   0    0    1   
-$EndComp
-$Comp
-L Connector:Conn_01x03_Male J3
-U 1 1 616D2CE4
-P 6900 3500
-F 0 "J3" H 7000 3250 50  0000 R CNN
-F 1 "Conn_01x03_Male" V 6950 4350 50  0000 R CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical" H 6900 3500 50  0001 C CNN
-F 3 "~" H 6900 3500 50  0001 C CNN
-	1    6900 3500
-	-1   0    0    1   
-$EndComp
 Wire Wire Line
 	6400 3600 6550 3600
-Connection ~ 6700 3600
-Wire Wire Line
-	6700 3600 7000 3600
-Connection ~ 7000 3600
-Wire Wire Line
-	7000 3600 7300 3600
 Connection ~ 6550 3600
 Wire Wire Line
-	6550 3600 6700 3600
-Wire Wire Line
-	6700 3400 7000 3400
-Connection ~ 7000 3400
-Wire Wire Line
-	7000 3400 7300 3400
-Wire Wire Line
 	6400 3300 6400 3500
-Wire Wire Line
-	6400 3500 6700 3500
-Connection ~ 6700 3500
-Wire Wire Line
-	6700 3500 7000 3500
-Connection ~ 7000 3500
-Wire Wire Line
-	7000 3500 7300 3500
 $Comp
-L Connector:Conn_01x03_Male J6
+L Connector:Conn_01x04_Male J6
 U 1 1 616D4891
-P 7800 3500
-F 0 "J6" H 7900 3250 50  0000 R CNN
-F 1 "Conn_01x03_Male" V 7900 4300 50  0000 R CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical" H 7800 3500 50  0001 C CNN
-F 3 "~" H 7800 3500 50  0001 C CNN
-	1    7800 3500
+P 7850 4000
+F 0 "J6" H 7950 3750 50  0000 R CNN
+F 1 "Conn_01x03_Male" V 7950 4800 50  0000 R CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical" H 7850 4000 50  0001 C CNN
+F 3 "~" H 7850 4000 50  0001 C CNN
+	1    7850 4000
 	-1   0    0    1   
 $EndComp
-Wire Wire Line
-	7300 3400 7600 3400
-Connection ~ 7300 3400
-Wire Wire Line
-	7300 3500 7600 3500
-Connection ~ 7300 3500
-Wire Wire Line
-	7300 3600 7600 3600
-Connection ~ 7300 3600
 Wire Wire Line
 	3550 3500 4250 3500
 Connection ~ 4250 3500
@@ -343,9 +280,6 @@ Wire Wire Line
 Connection ~ 6400 3300
 Wire Wire Line
 	6550 3600 6550 3400
-Wire Wire Line
-	6550 3400 6700 3400
-Connection ~ 6700 3400
 $Comp
 L Device:LED D2
 U 1 1 616EAF1A
@@ -479,4 +413,65 @@ Wire Wire Line
 	9500 2900 9500 2800
 Wire Wire Line
 	9500 2800 9750 2800
+$Comp
+L Connector:Conn_01x04_Male J?
+U 1 1 616CF3EF
+P 7550 4000
+F 0 "J?" H 7650 3750 50  0000 R CNN
+F 1 "Conn_01x03_Male" V 7650 4800 50  0000 R CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical" H 7550 4000 50  0001 C CNN
+F 3 "~" H 7550 4000 50  0001 C CNN
+	1    7550 4000
+	-1   0    0    1   
+$EndComp
+$Comp
+L Connector:Conn_01x04_Male J?
+U 1 1 616CF7E2
+P 7250 4000
+F 0 "J?" H 7350 3750 50  0000 R CNN
+F 1 "Conn_01x03_Male" V 7350 4800 50  0000 R CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical" H 7250 4000 50  0001 C CNN
+F 3 "~" H 7250 4000 50  0001 C CNN
+	1    7250 4000
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	7350 3500 7350 3800
+Wire Wire Line
+	6400 3500 7350 3500
+Connection ~ 7350 3800
+Wire Wire Line
+	7350 3800 7350 3900
+Connection ~ 7350 3900
+Wire Wire Line
+	7350 3900 7350 4000
+Connection ~ 7350 4000
+Wire Wire Line
+	7350 4000 7350 4100
+Wire Wire Line
+	7050 4100 7050 4000
+Wire Wire Line
+	6550 3600 7050 3600
+Connection ~ 7050 3800
+Wire Wire Line
+	7050 3800 7050 3600
+Connection ~ 7050 3900
+Wire Wire Line
+	7050 3900 7050 3800
+Connection ~ 7050 4000
+Wire Wire Line
+	7050 4000 7050 3900
+Wire Wire Line
+	7650 3400 7650 3800
+Wire Wire Line
+	6550 3400 7650 3400
+Connection ~ 7650 3800
+Wire Wire Line
+	7650 3800 7650 3900
+Connection ~ 7650 3900
+Wire Wire Line
+	7650 3900 7650 4000
+Connection ~ 7650 4000
+Wire Wire Line
+	7650 4000 7650 4100
 $EndSCHEMATC

@@ -432,12 +432,12 @@ Wire Wire Line
 Wire Wire Line
 	4950 2200 4750 2200
 $Comp
-L Connector:Conn_01x02_Male J?
+L Connector:Conn_01x02_Male J7
 U 1 1 616FFF13
 P 9950 2800
-F 0 "J?" H 9922 2682 50  0000 R CNN
+F 0 "J7" H 9922 2682 50  0000 R CNN
 F 1 "Conn_01x02_Male" H 9922 2773 50  0000 R CNN
-F 2 "" H 9950 2800 50  0001 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 9950 2800 50  0001 C CNN
 F 3 "~" H 9950 2800 50  0001 C CNN
 	1    9950 2800
 	-1   0    0    1   
@@ -465,10 +465,10 @@ Connection ~ 9250 2700
 Wire Wire Line
 	9250 2700 8900 2700
 $Comp
-L power:Earth #PWR?
+L power:Earth #PWR0108
 U 1 1 6170FD8E
 P 9500 2900
-F 0 "#PWR?" H 9500 2650 50  0001 C CNN
+F 0 "#PWR0108" H 9500 2650 50  0001 C CNN
 F 1 "Earth" H 9500 2750 50  0001 C CNN
 F 2 "" H 9500 2900 50  0001 C CNN
 F 3 "~" H 9500 2900 50  0001 C CNN
