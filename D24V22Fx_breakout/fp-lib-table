@@ -1,0 +1,3 @@
+(fp_lib_table
+  (lib (name pololu)(type KiCad)(uri ${KIPRJMOD}/../lib/kicad-libraries/footprints/pololu.pretty)(options "")(descr ""))
+)
