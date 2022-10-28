@@ -472,4 +472,10 @@ Wire Wire Line
 Connection ~ 7650 4000
 Wire Wire Line
 	7650 4000 7650 4100
+Text Notes 1000 2000 0    50   ~ 0
+Size for Reg\n5V - 330 Ohm\n12V - 680 Ohm
+Text Notes 2550 1900 0    50   ~ 0
+4k7 Ohm a \ngood value
+Text Notes 3500 3900 0    50   ~ 0
+Size for input voltage
 $EndSCHEMATC
